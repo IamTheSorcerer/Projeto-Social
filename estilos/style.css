@@ -13,7 +13,9 @@ html,body {
 }
 
 body{
-    background: url(../imagens/space3.jpg) no-repeat;
+    background: url(../imagens/space.jpg) no-repeat
+    top center;
+    background-size: cover;
 }
 
 main{
