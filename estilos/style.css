@@ -43,3 +43,19 @@ iframe#tela{
     height: 475px;
     
 }
+
+section#redesocial img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#redesocial{
+    text-align: right;
+}
+section#redesocial img:hover{
+    border: 2px solid orangered;
+    transform: translate(-2px , -2px);
+    transition: transform .2s, border .4s;
+}
